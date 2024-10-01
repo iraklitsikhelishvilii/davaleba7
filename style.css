@@ -10,7 +10,6 @@ body {
   align-items: center;
 }
 .container {
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(4, 288px);
   grid-template-rows: repeat(2, 1fr);
@@ -19,6 +18,7 @@ body {
     "daniel daniel jonathan kira "
     "jeanetta patrick patrick kira";
   gap: 30px;
+  align-items: center;
 }
 .Daniel {
   grid-area: daniel;
@@ -52,6 +52,9 @@ body {
   border-radius: 8px;
   background-color: #ffffff;
   padding: 32px;
+  height: 98%;
+  position: relative;
+  bottom: 5px;
 }
 .header {
   display: flex;

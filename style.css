@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: #ecf2f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 288px);
+  grid-template-rows: repeat(2, 1fr);
+  background-color: #ecf2f8;
+  grid-template-areas:
+    "daniel daniel jonathan kira "
+    "jeanetta patrick patrick kira";
+  gap: 30px;
+}
+.Daniel {
+  grid-area: daniel;
+  background-color: #733fc8;
+  border-radius: 8px;
+  padding: 32px;
+  background-image: url(./photos/\(fo\).svg);
+  background-repeat: no-repeat;
+  background-position: 360px 0px;
+}
+.Jeanette {
+  grid-area: jeanetta;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px;
+}
+.Patrick {
+  grid-area: patrick;
+  background-color: #19202d;
+  border-radius: 8px;
+  padding: 32px;
+}
+.Jonathan {
+  grid-area: jonathan;
+  border-radius: 8px;
+  background-color: #48556a;
+  padding: 32px;
+}
+.Kira {
+  grid-area: kira;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 32px;
+}
+.header {
+  display: flex;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17px;
+  gap: 4px;
+}
+.img_daniel {
+  width: 28px;
+  height: 28px;
+}
+.name_ {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px;
+  color: #fff;
+}
+.name_2 {
+  color: #cfcfcf;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+}
+.about {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 18px;
+}
+.p_about {
+  color: #cfcfcf;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 16px;
+}
+#about_bold {
+  color: #48556a;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+#name_bold {
+  color: #48556a;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+}
+#about_light {
+  color: #48556a;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-top: 30px;
+}
+#name_2_light {
+  color: #48556a;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+}
